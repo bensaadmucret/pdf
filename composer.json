@@ -1,0 +1,22 @@
+{
+    "name": "ben/custom_pdf_module",
+    "description": "builder pdf",
+    "authors": [
+        {
+            "name": "Mohammed Bensaad",
+            "email": "bensaadmucret@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dompdf/dompdf": "9999999-dev",
+        "symfony/var-dumper": "9999999-dev",
+        "timber/timber": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App_admin\\"  : "admin/",
+            "App_public\\" : "public/"
+        }
+    }
+}
